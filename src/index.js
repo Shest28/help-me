@@ -10,7 +10,7 @@ module.exports = function count(s, pairs) {
         return answer;
     }
         
-    if (N > 100000000000) return 0;
+    if (N > 100000000) return 0;
 
     for(let k = 0; k < N; k++){
         let  numnP = 1;
